@@ -1,13 +1,13 @@
 # Currency Converter
 
-A simple Python script to convert currencies using the Free Currency API.
+Auto Currency Converter is a user-friendly Python script that automates currency conversion using the Free Currency API. This tool simplifies the process of obtaining the latest exchange rates and performing currency conversions effortlessly.
 
 ## Features
 
-- Convert currencies based on the latest exchange rates.
-- List all available currencies.
-- Add new currencies to the list.
-- Remove currencies from the list.
+- **Automated Conversion:** Fetches the latest exchange rates from the Free Currency API.
+- **List of Currencies:** Displays a comprehensive list of available currencies for quick reference.
+- **Dynamic Currency Management:** Easily add or remove currencies from the conversion list.
+- **User-Friendly Interface:** Simple console-based interface for easy interaction.
 
 ## Prerequisites
 
@@ -34,10 +34,3 @@ A simple Python script to convert currencies using the Free Currency API.
     ```bash
     python currency_converter.py
     ```
-
-## Configuration
-
-Before running the script, replace the placeholder API key in the script with your actual Free Currency API key:
-
-```python
-API_KEY = 'your_actual_api_key'
